@@ -9,7 +9,19 @@ const CategoryCard = ({
 
     return (
         // Container for the category card
-        <div className="pe-4 max-w-sm">
+        <div className="pe-4 max-w-sm relative py-4">
+            {/* Icon for the category card */}
+            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <img
+                    src={`/icons/${icon}.svg`}
+                    alt="Category icon"
+                    className="w-20 h-20"
+                />
+                <svg
+                    dangerouslySetInnerHTML={{ __html: icon }}
+                    className="w-20 h-20 text-emerald-500"
+                />
+            </div>
             {/* Placeholder for the category card's visual representation */}
             <div className="bg-gray-100 w-full h-[100px] rounded-xl"></div>
 
