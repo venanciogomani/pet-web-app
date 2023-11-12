@@ -13,7 +13,7 @@ const PetCard = ({
             {/* Image of the pet with styling */}
             <img 
                 src={pet.photoUrl}
-                className="bg-gray-100 h-48 rounded-xl w-1/2 md:w-full object-cover object-center"
+                className="bg-gray-100 h-64 rounded-xl w-1/2 md:w-full object-cover object-center"
                 alt={pet.name}
             />
 

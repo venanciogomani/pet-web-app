@@ -7,7 +7,7 @@ const Banner = () => {
 
     return (
         // Banner container
-        <div className="bg-gray-100 w-full h-64 rounded-xl my-4 flex justify-between">
+        <div className="bg-gray-100 w-full h-64 md:h-80 rounded-xl my-4 flex justify-between">
             <div className="w-full md:w-1/2 lg:w-2/3 h-full">
                 <img
                     className="w-full h-full object-cover rounded-tl-xl rounded-bl-xl md:rounded-tl-xl md:rounded-bl-xl md:rounded-l-xl"
